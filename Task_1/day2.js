@@ -38,4 +38,23 @@ function getLetter(s) {
             letter = 'D';
     }
     return letter;
+}   
+
+
+
+function vowelsAndConsonants(s) {
+    let C=[];
+    for (let i = 0; i < s.length; i++) {
+        if(s[i] === "a"||s[i] === "e"|| s[i] === "i"|| s[i] === "o"||s[i] === "u") {
+            console.log(s[i]);
+        } else
+            C.push(s[i]);
+    }
+    for (let c of C) {
+        console.log(c);
+    }
 }
+
+// a, e, i, o, u
+
+
