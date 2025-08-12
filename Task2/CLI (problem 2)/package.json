@@ -1,0 +1,18 @@
+{
+  "name": "cli-(problem-2)",
+  "version": "1.0.0",
+  "main": "repo.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "inquirer": "^12.9.1",
+    "node-fetch": "^3.3.2"
+  }
+}
