@@ -42,9 +42,9 @@ program
             process.exit();
           }
           existingData.push(answers);
-          fs.writeFileSync(filePath, JSON.stringify(existingData, null, 2));
+          fs.writeFileSync(filePath, JSON.stringify(existingData));
         } else {
-          fs.writeFileSync(filePath, JSON.stringify([answers], null, 2));
+          fs.writeFileSync(filePath, JSON.stringify([answers]));
         }
         console.log("Course added successfully!");
         console.log(`Title: ${answers.title}`);
@@ -76,3 +76,4 @@ program.command('list')
     });
 });
 program.parse(process.argv);
+
